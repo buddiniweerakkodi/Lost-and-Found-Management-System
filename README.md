@@ -1,4 +1,4 @@
-# 🔍 LFMS - Lost & Found Management System (OOP Based)
+#  LFMS - Lost & Found Management System (OOP Based)
 
 **LFMS** is a web application designed for university environments to streamline the process of reporting and claiming lost or found items. Unlike traditional procedural systems, this project is built using **Object-Oriented Programming (OOP)** principles to ensure scalability, reusability, and a clean architecture.
 
@@ -6,7 +6,7 @@ Developed in **2025** for the **Object-Oriented Design and Optimization** module
 
 ---
 
-## 🚀 System Workflow
+##  System Workflow
 
 1. **Report Submission:** Students or staff can report lost or found items after registration.
 2. **Verification:** Found items must be physically handed to the **Admin Office** with a valid University ID.
@@ -15,9 +15,9 @@ Developed in **2025** for the **Object-Oriented Design and Optimization** module
 
 ---
 
-## 🏗️ Technical Architecture (OOP Highlights)
+##  Technical Architecture (OOP Highlights)
 
-### 📊 Class Hierarchy (Mermaid Diagram)
+###  Class Hierarchy (Mermaid Diagram)
 
 ```mermaid
 classDiagram
@@ -76,7 +76,7 @@ classDiagram
 
 ---
 
-## 🧠 Core OOP Implementation
+##  Core OOP Implementation
 
 ### 🔹 Abstraction & Inheritance
 
@@ -116,7 +116,7 @@ LFMS/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** PHP 8.x (OOP)
 * **Database:** MySQL (XAMPP / phpMyAdmin)
@@ -164,7 +164,7 @@ http://localhost/LFMS/public/index.php
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 * 🖼️ Image Uploads
 * 📧 Email Notifications
