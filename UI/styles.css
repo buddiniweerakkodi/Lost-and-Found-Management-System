@@ -1,0 +1,269 @@
+/* styles.css */
+
+/* Base layout */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+/* Headings */
+h1,
+h2 {
+    margin-top: 40px;
+}
+
+/* Global link styling */
+a {
+    color: #007BFF;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+th {
+    background-color: #b3d6f9;
+    color: #000000;
+    padding: 12px;
+    text-align: left;
+    border: solid #ffffff;
+    border-radius: 5%;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+tr:hover {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s;
+}
+
+/* Buttons: applies to <a> and <button> */
+.btn,
+button.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 4px 2px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+/* Button types */
+.edit-btn {
+    background-color: #007BFF;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #a71d2a;
+}
+
+.view-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #1e7e34;
+}
+
+/* <a> styled as button */
+a.btn {
+    color: white;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    opacity: 0.9;
+}
+
+/* Optional reset for native buttons */
+button {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+/* Centering utility */
+.text-center {
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin-top: 30px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="password"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Form buttons */
+form .btn {
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #a0cdfd;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
+
+.red-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #db3131;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+.btn-dash {
+    display: inline-block;
+    width: 99.9%;
+    padding: 8px 14px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 13px auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #5c87e4;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+input[type="search"],
+input[type="url"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+input:disabled {
+    background-color: #f1f5f9;
+    color: #6b7280;
+    cursor: not-allowed;
+}
+
+input::placeholder {
+    color: #94a3b8;
+    font-style: italic;
+}
