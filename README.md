@@ -113,7 +113,11 @@ LFMS/
 ├── config/           # Database Configuration (PDO Connection)
 └── UI/               # Reusable UI Components (Tailwind, Headers, Footers)
 ```
+## 🎥 Demo Video
 
+Watch the full system demonstration on LinkedIn:
+
+🔗 [Click here to watch the demo](https://www.linkedin.com/posts/buddini-weerakkodi-8244043b8_oop-softwareengineering-php-activity-7441171592484847616-F6Vi)
 ---
 
 ##  Tech Stack
